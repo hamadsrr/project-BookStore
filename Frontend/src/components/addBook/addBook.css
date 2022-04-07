@@ -1,0 +1,33 @@
+.form-add{
+    margin-top: 90px;
+    
+    background-color: white;
+    
+    padding: 15px;
+    text-align: left;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.inputAddBook{
+    width: 100%;
+}
+.Add-New-Book{
+    text-align: center;
+}
+.buttonToAdd{
+    width: 80%;
+    height: 30px;
+    background-color: #182848 !important;
+    border-color: #182848 !important;
+    color: #f8f8ff !important;
+    padding: 1px!important ;
+    margin-left: 10%;
+}
+
+.buttonToAdd:hover{
+    background-color: #4b6cb7 !important;
+    border-color: #4b6cb7 !important;
+}
+.alertSuccess{
+    margin-top: 15px !important;
+}

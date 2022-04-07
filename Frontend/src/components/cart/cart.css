@@ -1,0 +1,30 @@
+table{
+    border-collapse: collapse !important;
+    margin-top: 90px;
+    background-color: white;
+    border-radius: 5px;
+
+  overflow: hidden;
+    
+}
+th, td {
+    padding: 1em;
+    background: #ddd;
+    border-bottom: 2px solid white; 
+  }
+.ChickOut-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 90%;
+    height: 30px;
+    background-color: #182848 !important;
+    border-color: #182848 !important;
+    color: #f8f8ff !important;
+    padding: 1px!important ;
+}
+
+.ChickOut-button:hover{
+    background-color: #4b6cb7 !important;
+    border-color: #4b6cb7 !important;
+}

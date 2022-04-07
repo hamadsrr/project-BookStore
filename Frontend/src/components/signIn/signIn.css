@@ -1,0 +1,50 @@
+.input{
+    margin-top: 10px !important;
+    width: 100%; 
+}
+.logo-card{
+    width: 50% !important;
+    margin-left: 25%;
+    margin-top: 10px;
+    
+}
+.card-SignIn{
+    padding-top: 35px;
+    width: 22rem;
+    height: 83%;
+    margin-top: 15%;
+    padding-bottom: 15px;
+    border: none !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.card-center{
+    justify-content: center;
+    text-align: center;
+    
+}
+.toSignUp{
+    
+    margin-right: 90%;
+    background-color: white !important;
+    border-color:white !important ;
+    color: #4b6cb7 !important;
+    
+
+}
+.toSignUp:hover{
+    text-decoration: underline !important;
+
+}
+.buttonSignIn{
+    width: 80%;
+    height: 30px;
+    background-color: #182848 !important;
+    border-color: #182848 !important;
+    color: #f8f8ff !important;
+    padding: 1px!important ;
+
+}
+.buttonSignIn:hover{
+    background-color: #4b6cb7 !important;
+    border-color: #4b6cb7 !important;
+}

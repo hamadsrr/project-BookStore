@@ -1,0 +1,29 @@
+.Card-book{
+
+    margin-top: 80px !important;
+    width: 22rem;
+    text-align: left;
+}
+.Price{
+    text-align: right !important;
+    color: #4b6cb7;
+}
+.Buy-button{
+    margin-left: 10px;
+    width: 90%;
+    height: 30px;
+    background-color: #182848 !important;
+    border-color: #182848 !important;
+    color: #f8f8ff !important;
+    padding: 1px!important ;
+}
+
+.Buy-button:hover{
+    background-color: #4b6cb7 !important;
+    border-color: #4b6cb7 !important;
+}
+.imgBooks{
+    width: 40% !important;
+    height: 180px !important;
+    margin-left: 25% !important;
+}

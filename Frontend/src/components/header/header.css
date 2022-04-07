@@ -1,0 +1,31 @@
+.Header{
+   
+	
+    z-index: 1 !;
+    background: #4b6cb7 !important;  /* fallback for old browsers */
+ background: -webkit-linear-gradient(to right, #182848, #4b6cb7) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7) !important; /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+}
+.text{
+    color: white !important;
+}
+
+.text:hover{
+    color: #576992 !important;
+}
+
+.header-logo{
+
+    width: 6% !important;
+    height: 6% !important;
+    margin-right: 10px;
+}
+
+.drop{
+   background-color: unset !important; 
+   border-color: transparent !important;
+}
+.drop:hover{
+    color: #182848 !important;
+ }

@@ -1,0 +1,16 @@
+.footer-links:hover {
+    color: #919ebd !important;
+    background-color: none !important;
+    box-shadow: none !important;
+  }
+  .footer-links{
+      color: white !important;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  

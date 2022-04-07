@@ -3,6 +3,8 @@ const {User} = require("../../models/userSchema");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 
+
+/* ----------------------------- get Data For LogIn ---------------------------- */
 const getDataForLogIn = (req, res) => {
   User.findOne({ email: req.body.email }, async (err, result) => {
     if (result === null) {
@@ -15,6 +17,7 @@ const getDataForLogIn = (req, res) => {
       if (passwordcheck) {
         const payload = {
           name: result.name,
+          email:result.email,
           isAdmin: result.isAdmin,
         };
         const token = jwt.sign(payload, process.env.SECRET_KEY);
@@ -28,7 +31,7 @@ const getDataForLogIn = (req, res) => {
     }
   });
 };
-
+/* -------------------------- get User Data From Token -------------------------- */
 function getUserDataFromToken(req,res){
   const token = req.user
   res.json({token:token})

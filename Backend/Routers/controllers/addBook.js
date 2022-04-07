@@ -16,6 +16,7 @@ function saveBook(req,res){
     .then((err, result) => res.send(newBook))
     .catch((err) => console.log(err));
 }
+/* -------------------------------- get book -------------------------------- */
 
 const getAllbooks= (req,res)=>{
     Books.find({}, (err, result)=> {
